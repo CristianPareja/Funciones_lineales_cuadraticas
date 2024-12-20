@@ -72,7 +72,9 @@ match opcion:
             print(f"La funcion es: {a}x^2+{b}x+{c}")
             ##Vertice
             vx=(-1)*(b/2*a)
+            vx = round(vx, 2)
             vy=((4*a*c-b**2)/(4*a))
+            vy = round(vy, 2)
             print(f"Vertice: ({vx},{vy})")
             ##Raices
             x1=((-1)*(b)+((b**2)-4*a*c)**0.5)/(2*a)
